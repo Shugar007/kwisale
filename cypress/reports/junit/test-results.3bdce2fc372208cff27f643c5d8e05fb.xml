@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.0020" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-06-28T08:56:32" tests="0" file="cypress/e2e/channels.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Channel Functionalities" timestamp="2022-06-28T08:56:32" tests="3" time="13.0020" failures="2">
+    <testcase name="Channel Functionalities Should be able to view store " time="13.0020" classname="Should be able to view store ">
+    </testcase>
+    <testcase name="Channel Functionalities Should be able to edit online store " time="0.0000" classname="Should be able to edit online store ">
+      <failure message="Timed out retrying after 80000ms: Expected to find element: `:nth-child(3) &gt; [data-testid=&quot;name&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 80000ms: Expected to find element: `:nth-child(3) > [data-testid="name"]`, but never found it.
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/channels.cy.js:162:8)]]></failure>
+    </testcase>
+    <testcase name="Channel Functionalities Should be able to activate store " time="0.0000" classname="Should be able to activate store ">
+      <failure message="Timed out retrying after 80000ms: Expected to find element: `.slider`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 80000ms: Expected to find element: `.slider`, but never found it.
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/channels.cy.js:179:8)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="25.4440" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-07T16:29:43" tests="0" file="cypress/e2e/channels.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Channel Functionalities" timestamp="2022-11-07T16:29:43" tests="2" time="25.4440" failures="0">
+    <testcase name="Channel Functionalities Should be able to view store " time="18.2150" classname="Should be able to view store ">
+    </testcase>
+    <testcase name="Channel Functionalities Should be able to add physical store " time="7.2290" classname="Should be able to add physical store ">
+    </testcase>
+  </testsuite>
+</testsuites>

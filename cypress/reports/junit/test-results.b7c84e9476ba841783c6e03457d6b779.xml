@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="13" failures="13">
+  <testsuite name="Root Suite" timestamp="2022-11-07T16:25:24" tests="0" file="cypress/e2e/Items.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Items Page" timestamp="2022-11-07T16:25:24" tests="13" time="0.0000" failures="13">
+    <testcase name="Items Page Verify user can create Basic item" time="0.0000" classname="Verify user can create Basic item">
+      <failure message="Cannot read properties of undefined (reading &apos;itemNameField&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'itemNameField')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:110:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can create a Variant item" time="0.0000" classname="Verify that user can create a Variant item">
+      <failure message="Cannot read properties of undefined (reading &apos;itemNameField&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'itemNameField')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:162:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify user can create a composite item" time="0.0000" classname="Verify user can create a composite item">
+      <failure message="Cannot read properties of undefined (reading &apos;itemNameField&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'itemNameField')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:232:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can create a Category" time="0.0000" classname="Verify that user can create a Category">
+      <failure message="Cannot read properties of undefined (reading &apos;categoriesTab&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'categoriesTab')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:286:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can create a SubCategory" time="0.0000" classname="Verify that user can create a SubCategory">
+      <failure message="Cannot read properties of undefined (reading &apos;categoriesTab&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'categoriesTab')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:300:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can edit an item" time="0.0000" classname="Verify that user can edit an item">
+      <failure message="Cannot read properties of undefined (reading &apos;actionBtn&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'actionBtn')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:319:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can delete an item" time="0.0000" classname="Verify that user can delete an item">
+      <failure message="Cannot read properties of undefined (reading &apos;actionBtn2&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'actionBtn2')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:335:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can upload an item" time="0.0000" classname="Verify that user can upload an item">
+      <failure message="Cannot read properties of undefined (reading &apos;expUploadAction&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'expUploadAction')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:347:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can export an item" time="0.0000" classname="Verify that user can export an item">
+      <failure message="Cannot read properties of undefined (reading &apos;expUploadAction&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'expUploadAction')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:361:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can filter items" time="0.0000" classname="Verify that user can filter items">
+      <failure message="Cannot read properties of undefined (reading &apos;itemFilterBtn&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'itemFilterBtn')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:368:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can search for an item" time="0.0000" classname="Verify that user can search for an item">
+      <failure message="Cannot read properties of undefined (reading &apos;itemSearchBox&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'itemSearchBox')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:379:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user can add discount" time="0.0000" classname="Verify that user can add discount">
+      <failure message="Cannot read properties of undefined (reading &apos;discountTab&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'discountTab')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:386:29)]]></failure>
+    </testcase>
+    <testcase name="Items Page Verify that user add tax" time="0.0000" classname="Verify that user add tax">
+      <failure message="Cannot read properties of undefined (reading &apos;taxTab&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'taxTab')
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/Items.cy.js:407:29)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

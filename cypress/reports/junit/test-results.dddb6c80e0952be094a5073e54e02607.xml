@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="29.7800" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-07T17:05:32" tests="0" file="cypress/e2e/orders.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Order Functionalities" timestamp="2022-11-07T17:05:32" tests="4" time="29.7800" failures="0">
+    <testcase name="Order Functionalities Should be able to search orders" time="25.3960" classname="Should be able to search orders">
+    </testcase>
+    <testcase name="Order Functionalities Should be able to filter" time="2.8750" classname="Should be able to filter">
+    </testcase>
+    <testcase name="Order Functionalities Should be able to export orders" time="0.3470" classname="Should be able to export orders">
+    </testcase>
+    <testcase name="Order Functionalities Should be able to view make a sale" time="1.1620" classname="Should be able to view make a sale">
+    </testcase>
+  </testsuite>
+</testsuites>

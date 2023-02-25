@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.2830" tests="5" failures="4">
+  <testsuite name="Root Suite" timestamp="2022-11-07T12:54:15" tests="0" file="cypress/e2e/makeASale.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Make A Sale Functionalities" timestamp="2022-11-07T12:54:15" tests="5" time="19.2830" failures="4">
+    <testcase name="Make A Sale Functionalities SHould be able to make a sale" time="0.0000" classname="SHould be able to make a sale">
+      <failure message="`cy.select()` can only be called on a `&lt;select&gt;`. Your subject is a: `&lt;button class=&quot;btn btn btn--sm btn--secondary&quot;&gt;...&lt;/button&gt;`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: `cy.select()` can only be called on a `<select>`. Your subject is a: `<button class="btn btn btn--sm btn--secondary">...</button>`
+
+https://on.cypress.io/select
+    at Context.select (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:136271:78)
+    at wrapped (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:157145:19)
+From Your Spec Code:
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/makeASale.cy.js:114:53)]]></failure>
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to place order" time="0.0000" classname="Should be able to place order">
+      <failure message="`cy.select()` can only be called on a `&lt;select&gt;`. Your subject is a: `&lt;button class=&quot;btn btn btn--sm btn--secondary&quot;&gt;...&lt;/button&gt;`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: `cy.select()` can only be called on a `<select>`. Your subject is a: `<button class="btn btn btn--sm btn--secondary">...</button>`
+
+https://on.cypress.io/select
+    at Context.select (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:136271:78)
+    at wrapped (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:157145:19)
+From Your Spec Code:
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/makeASale.cy.js:132:53)]]></failure>
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to save order" time="0.0000" classname="Should be able to save order">
+      <failure message="`cy.select()` can only be called on a `&lt;select&gt;`. Your subject is a: `&lt;button class=&quot;btn btn btn--sm btn--secondary&quot;&gt;...&lt;/button&gt;`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: `cy.select()` can only be called on a `<select>`. Your subject is a: `<button class="btn btn btn--sm btn--secondary">...</button>`
+
+https://on.cypress.io/select
+    at Context.select (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:136271:78)
+    at wrapped (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:157145:19)
+From Your Spec Code:
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/makeASale.cy.js:152:53)]]></failure>
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to charge order" time="0.0000" classname="Should be able to charge order">
+      <failure message="`cy.select()` can only be called on a `&lt;select&gt;`. Your subject is a: `&lt;button class=&quot;btn btn btn--sm btn--secondary&quot;&gt;...&lt;/button&gt;`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: `cy.select()` can only be called on a `<select>`. Your subject is a: `<button class="btn btn btn--sm btn--secondary">...</button>`
+
+https://on.cypress.io/select
+    at Context.select (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:136271:78)
+    at wrapped (https://app-kwiksell.bluegreensoft.com/__cypress/runner/cypress_runner.js:157145:19)
+From Your Spec Code:
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/makeASale.cy.js:172:53)]]></failure>
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to switch sales channel" time="19.2830" classname="Should be able to switch sales channel">
+    </testcase>
+  </testsuite>
+</testsuites>

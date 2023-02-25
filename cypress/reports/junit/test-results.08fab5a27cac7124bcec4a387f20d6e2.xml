@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="212.6640" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-07-03T15:17:31" tests="0" file="cypress\integration\Menu.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Menu" timestamp="2020-07-03T15:17:31" tests="6" time="212.6640" failures="0">
+    <testcase name="Menu Create Menu" time="48.6130" classname="Create Menu">
+    </testcase>
+    <testcase name="Menu View Menu" time="58.0030" classname="View Menu">
+    </testcase>
+    <testcase name="Menu Create User Role" time="34.0860" classname="Create User Role">
+    </testcase>
+    <testcase name="Menu View User Role" time="33.3250" classname="View User Role">
+    </testcase>
+    <testcase name="Menu Create User Function" time="38.6370" classname="Create User Function">
+    </testcase>
+  </testsuite>
+</testsuites>

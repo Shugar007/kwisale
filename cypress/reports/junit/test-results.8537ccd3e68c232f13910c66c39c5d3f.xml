@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.3780" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-07T16:30:15" tests="0" file="cypress/e2e/customers.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Customers Functionalities" timestamp="2022-11-07T16:30:15" tests="7" time="38.3780" failures="0">
+    <testcase name="Customers Functionalities Should be able to  add customer " time="26.2450" classname="Should be able to  add customer ">
+    </testcase>
+    <testcase name="Customers Functionalities Should be able to edit customer" time="5.8240" classname="Should be able to edit customer">
+    </testcase>
+    <testcase name="Customers Functionalities Should be able to delete Customer" time="1.5240" classname="Should be able to delete Customer">
+    </testcase>
+    <testcase name="Customers Functionalities Should be able to search customer" time="0.3390" classname="Should be able to search customer">
+    </testcase>
+    <testcase name="Customers Functionalities Should be able to create group" time="1.6630" classname="Should be able to create group">
+    </testcase>
+    <testcase name="Customers Functionalities Should be able to search group" time="0.5190" classname="Should be able to search group">
+    </testcase>
+    <testcase name="Customers Functionalities Should add customer to group" time="2.2640" classname="Should add customer to group">
+    </testcase>
+  </testsuite>
+</testsuites>

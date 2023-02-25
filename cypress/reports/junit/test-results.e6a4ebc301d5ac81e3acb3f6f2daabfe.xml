@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-12-24T16:53:59" tests="0" file="cypress\integration\loginTest.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Device Test" timestamp="2020-12-24T16:53:59" tests="1" time="0.0000" failures="1">
+    <testcase name="Device Test &quot;before each&quot; hook for &quot;Verify Invalid Login&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Verify Invalid Login&quot;">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; Cannot set property &apos;inject&apos; of undefined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Device Test`" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > Cannot set property 'inject' of undefined
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Device Test`
+    at https://app.kudabank.com/login/:1:3977]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

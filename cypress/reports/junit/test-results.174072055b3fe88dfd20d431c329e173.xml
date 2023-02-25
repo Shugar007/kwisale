@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-07T04:32:07" tests="0" file="cypress\integration\Menu.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Menu" timestamp="2020-07-07T04:32:07" tests="6" time="0.0000" failures="1">
+    <testcase name="Menu &quot;before each&quot; hook for &quot;Create Menu&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Create Menu&quot;">
+      <failure message="Timed out retrying: Expected to find element: `#email`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Menu`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `#email`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Menu`
+    at ensureExistence (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:137673:32)
+    at Object.ensureElExistence (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:137691:12)
+    at ensureExistence (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:127867:23)
+    at onFailFn (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:127905:9)
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3651:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-03T15:11:46" tests="0" file="cypress\integration\CustomerAccount.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Customer Account" timestamp="2020-07-03T15:11:46" tests="1" time="0.0000" failures="1">
+    <testcase name="Customer Account &quot;before each&quot; hook for &quot;Create Customer Account&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Create Customer Account&quot;">
+      <failure message="`cy.screenshot()` timed out waiting `30000ms` to complete.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Customer Account`" type="CypressError"><![CDATA[CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Customer Account`
+    at cypressErr (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146621:16)
+    at cypressErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146630:10)
+    at Object.throwErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146593:11)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:135913:24
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:4187:41
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3651:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

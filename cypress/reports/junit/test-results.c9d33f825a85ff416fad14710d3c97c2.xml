@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.2560" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-07T16:34:41" tests="0" file="cypress/e2e/settings.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="setttings Functionalities" timestamp="2022-11-07T16:34:41" tests="1" time="19.2560" failures="0">
+    <testcase name="setttings Functionalities Should be able to change password " time="19.2560" classname="Should be able to change password ">
+    </testcase>
+  </testsuite>
+</testsuites>

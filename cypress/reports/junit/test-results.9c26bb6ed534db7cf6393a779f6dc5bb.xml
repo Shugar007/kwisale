@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="220.1780" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-07T12:08:02" tests="0" file="cypress/e2e/makeASale.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Make A Sale Functionalities" timestamp="2022-11-07T12:08:02" tests="5" time="220.1780" failures="1">
+    <testcase name="Make A Sale Functionalities SHould be able to make a sale" time="68.3890" classname="SHould be able to make a sale">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to place order" time="47.6010" classname="Should be able to place order">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to save order" time="47.4800" classname="Should be able to save order">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to charge order" time="0.0000" classname="Should be able to charge order">
+      <failure message="Timed out retrying after 60000ms: Expected to find element: `.cjLXJj &gt; .sc-eCYdqJ &gt; form &gt; .sc-jSMfEi &gt; .modal-container-button &gt; .btn`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 60000ms: Expected to find element: `.cjLXJj > .sc-eCYdqJ > form > .sc-jSMfEi > .modal-container-button > .btn`, but never found it.
+    at Context.eval (https://app-kwiksell.bluegreensoft.com/__cypress/tests?p=cypress/e2e/makeASale.cy.js:189:8)]]></failure>
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to switch sales channel" time="56.7080" classname="Should be able to switch sales channel">
+    </testcase>
+  </testsuite>
+</testsuites>

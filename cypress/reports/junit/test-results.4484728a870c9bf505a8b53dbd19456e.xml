@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.6570" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-06T15:16:59" tests="0" file="cypress\integration\branch.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Branch" timestamp="2020-07-06T15:16:59" tests="3" time="67.6570" failures="2">
+    <testcase name="Branch Create Branch" time="0.0000" classname="Create Branch">
+      <failure message="Timed out retrying: `cy.select()` failed because it could not find a single `&lt;option&gt;` with value or text matching: `Western`
+
+https://on.cypress.io/select" type="CypressError"><![CDATA[CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `Western`
+
+https://on.cypress.io/select
+    at cypressErr (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146621:16)
+    at cypressErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146630:10)
+    at Object.throwErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146593:11)
+    at getOptions (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:130404:21)
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Function.Promise.attempt.Promise.try (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:6339:29)
+    at retryOptions (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:130431:30)
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Function.Promise.attempt.Promise.try (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:6339:29)
+    at tryFn (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:140680:21)
+    at whenStable (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:140715:12)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:140259:16
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7102:10)]]></failure>
+    </testcase>
+    <testcase name="Branch View Branch" time="0.0000" classname="View Branch">
+      <failure message="Timed out after waiting `30000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `30000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands." type="CypressError"><![CDATA[CypressError: Timed out after waiting `30000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `30000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+    at cypressErr (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146621:16)
+    at cypressErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146630:10)
+    at Object.throwErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146593:11)
+    at timedOutWaitingForPageLoad (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:134041:20)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:134273:14
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:4187:41
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3651:14)]]></failure>
+    </testcase>
+    <testcase name="Branch Update Branch" time="67.6570" classname="Update Branch">
+    </testcase>
+  </testsuite>
+</testsuites>

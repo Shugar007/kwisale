@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="133.0750" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-07T16:31:20" tests="0" file="cypress/e2e/makeASale.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Make A Sale Functionalities" timestamp="2022-11-07T16:31:20" tests="5" time="133.0750" failures="0">
+    <testcase name="Make A Sale Functionalities SHould be able to make a sale" time="21.6370" classname="SHould be able to make a sale">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to place order" time="21.5560" classname="Should be able to place order">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to save order" time="21.8720" classname="Should be able to save order">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to charge order" time="48.9180" classname="Should be able to charge order">
+    </testcase>
+    <testcase name="Make A Sale Functionalities Should be able to switch sales channel" time="19.0920" classname="Should be able to switch sales channel">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="37.1640" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-05T14:48:26" tests="0" file="cypress\integration\Country.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Branch" timestamp="2020-07-05T14:48:27" tests="3" time="37.1640" failures="1">
+    <testcase name="Branch Create Country" time="0.0000" classname="Create Country">
+      <failure message="cy.get(...).should(...).cleae is not a function" type="TypeError"><![CDATA[TypeError: cy.get(...).should(...).cleae is not a function
+    at Context.<anonymous> (https://nerve-uat.kudabank.com/__cypress/tests?p=cypress\integration\Country.js-671:21:63)]]></failure>
+    </testcase>
+    <testcase name="Branch View country" time="16.9440" classname="View country">
+    </testcase>
+    <testcase name="Branch Update/Edit Country" time="20.2200" classname="Update/Edit Country">
+    </testcase>
+  </testsuite>
+</testsuites>

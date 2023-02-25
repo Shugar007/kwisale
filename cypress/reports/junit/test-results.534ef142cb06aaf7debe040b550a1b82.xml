@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-07-03T15:07:37" tests="0" file="cypress\integration\Country.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Branch" timestamp="2020-07-03T15:07:37" tests="3" time="0.0000" failures="1">
+    <testcase name="Branch &quot;before each&quot; hook for &quot;Create Country&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;Create Country&quot;">
+      <failure message="Timed out after waiting `30000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `30000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Branch`" type="CypressError"><![CDATA[CypressError: Timed out after waiting `30000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `30000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Branch`
+    at cypressErr (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146621:16)
+    at cypressErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146630:10)
+    at Object.throwErrByPath (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:146593:11)
+    at timedOutWaitingForPageLoad (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:134041:20)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:134273:14
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:4187:41
+    at tryCatcher (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:9065:23)
+    at Promise._settlePromiseFromHandler (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7000:31)
+    at Promise._settlePromise (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7057:18)
+    at Promise._settlePromise0 (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7102:10)
+    at Promise._settlePromises (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:7178:18)
+    at _drainQueueStep (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3772:12)
+    at _drainQueue (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3765:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3781:5)
+    at Async.drainQueues (https://nerve-uat.kudabank.com/__cypress/runner/cypress_runner.js:3651:14)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.3200" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-06-28T09:00:43" tests="0" file="cypress/e2e/teams.cy.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Team Functionalities" timestamp="2022-06-28T09:00:43" tests="1" time="24.3200" failures="0">
+    <testcase name="Team Functionalities Should be able to edit team " time="24.3200" classname="Should be able to edit team ">
+    </testcase>
+  </testsuite>
+</testsuites>
